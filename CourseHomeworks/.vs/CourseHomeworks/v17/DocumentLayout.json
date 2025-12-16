@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Loner\\CourseHomeworks\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|c:\\users\\loner\\coursehomeworks\\assets\\_myfolder\\transformshw\\scripts\\capsulescaling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\transformshw\\scripts\\capsulescaling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|c:\\users\\loner\\coursehomeworks\\assets\\_myfolder\\transformshw\\scripts\\cuberotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\transformshw\\scripts\\cuberotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|C:\\Users\\Loner\\CourseHomeworks\\assets\\_myfolder\\transformshw\\scripts\\spheremovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\transformshw\\scripts\\spheremovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CapsuleScaling.cs",
+              "DocumentMoniker": "C:\\Users\\Loner\\CourseHomeworks\\Assets\\_myFolder\\TransformsHW\\Scripts\\CapsuleScaling.cs",
+              "RelativeDocumentMoniker": "Assets\\_myFolder\\TransformsHW\\Scripts\\CapsuleScaling.cs",
+              "ToolTip": "C:\\Users\\Loner\\CourseHomeworks\\Assets\\_myFolder\\TransformsHW\\Scripts\\CapsuleScaling.cs",
+              "RelativeToolTip": "Assets\\_myFolder\\TransformsHW\\Scripts\\CapsuleScaling.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T14:30:43.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CubeRotation.cs",
+              "DocumentMoniker": "C:\\Users\\Loner\\CourseHomeworks\\Assets\\_myFolder\\TransformsHW\\Scripts\\CubeRotation.cs",
+              "RelativeDocumentMoniker": "Assets\\_myFolder\\TransformsHW\\Scripts\\CubeRotation.cs",
+              "ToolTip": "C:\\Users\\Loner\\CourseHomeworks\\Assets\\_myFolder\\TransformsHW\\Scripts\\CubeRotation.cs",
+              "RelativeToolTip": "Assets\\_myFolder\\TransformsHW\\Scripts\\CubeRotation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T14:24:52.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SphereMovement.cs",
+              "DocumentMoniker": "C:\\Users\\Loner\\CourseHomeworks\\Assets\\_myFolder\\TransformsHW\\Scripts\\SphereMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\_myFolder\\TransformsHW\\Scripts\\SphereMovement.cs",
+              "ToolTip": "C:\\Users\\Loner\\CourseHomeworks\\Assets\\_myFolder\\TransformsHW\\Scripts\\SphereMovement.cs",
+              "RelativeToolTip": "Assets\\_myFolder\\TransformsHW\\Scripts\\SphereMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T14:11:19.905Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
