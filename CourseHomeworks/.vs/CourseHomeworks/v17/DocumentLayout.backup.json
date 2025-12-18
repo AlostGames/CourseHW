@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Loner\\CourseHomeworks\\",
+  "WorkspaceRootPath": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|c:\\users\\loner\\coursehomeworks\\assets\\_myfolder\\transformshw\\scripts\\cuberotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\transformshw\\scripts\\cuberotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|c:\\users\\loner\\documents\\github\\coursehw\\coursehomeworks\\assets\\_myfolder\\transformshw\\scripts\\scaler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\transformshw\\scripts\\scaler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|c:\\users\\loner\\coursehomeworks\\assets\\_myfolder\\transformshw\\scripts\\spheremovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\transformshw\\scripts\\spheremovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\assets\\_myfolder\\transformshw\\scripts\\rotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\transformshw\\scripts\\rotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\assets\\_myfolder\\transformshw\\scripts\\mover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\transformshw\\scripts\\mover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,28 +27,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CubeRotation.cs",
-              "DocumentMoniker": "C:\\Users\\Loner\\CourseHomeworks\\Assets\\_myFolder\\TransformsHW\\Scripts\\CubeRotation.cs",
-              "RelativeDocumentMoniker": "Assets\\_myFolder\\TransformsHW\\Scripts\\CubeRotation.cs",
-              "ToolTip": "C:\\Users\\Loner\\CourseHomeworks\\Assets\\_myFolder\\TransformsHW\\Scripts\\CubeRotation.cs",
-              "RelativeToolTip": "Assets\\_myFolder\\TransformsHW\\Scripts\\CubeRotation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Title": "Scaler.cs",
+              "DocumentMoniker": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\TransformsHW\\Scripts\\Scaler.cs",
+              "RelativeDocumentMoniker": "Assets\\_myFolder\\TransformsHW\\Scripts\\Scaler.cs",
+              "ToolTip": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\TransformsHW\\Scripts\\Scaler.cs",
+              "RelativeToolTip": "Assets\\_myFolder\\TransformsHW\\Scripts\\Scaler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T14:24:52.862Z",
+              "WhenOpened": "2025-12-18T10:08:34.51Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SphereMovement.cs",
-              "DocumentMoniker": "C:\\Users\\Loner\\CourseHomeworks\\Assets\\_myFolder\\TransformsHW\\Scripts\\SphereMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\_myFolder\\TransformsHW\\Scripts\\SphereMovement.cs",
-              "ToolTip": "C:\\Users\\Loner\\CourseHomeworks\\Assets\\_myFolder\\TransformsHW\\Scripts\\SphereMovement.cs",
-              "RelativeToolTip": "Assets\\_myFolder\\TransformsHW\\Scripts\\SphereMovement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Title": "Rotator.cs",
+              "DocumentMoniker": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\TransformsHW\\Scripts\\Rotator.cs",
+              "RelativeDocumentMoniker": "Assets\\_myFolder\\TransformsHW\\Scripts\\Rotator.cs",
+              "ToolTip": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\TransformsHW\\Scripts\\Rotator.cs",
+              "RelativeToolTip": "Assets\\_myFolder\\TransformsHW\\Scripts\\Rotator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T14:11:19.905Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T10:05:25.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Mover.cs",
+              "DocumentMoniker": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\TransformsHW\\Scripts\\Mover.cs",
+              "RelativeDocumentMoniker": "Assets\\_myFolder\\TransformsHW\\Scripts\\Mover.cs",
+              "ToolTip": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\TransformsHW\\Scripts\\Mover.cs",
+              "RelativeToolTip": "Assets\\_myFolder\\TransformsHW\\Scripts\\Mover.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T10:01:46.705Z"
             }
           ]
         }
