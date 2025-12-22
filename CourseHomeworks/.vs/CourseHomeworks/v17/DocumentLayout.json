@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|c:\\users\\loner\\documents\\github\\coursehw\\coursehomeworks\\assets\\_myfolder\\transformshw\\scripts\\scaler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\transformshw\\scripts\\scaler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\assets\\_myfolder\\transformshw\\scripts\\rotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\transformshw\\scripts\\rotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\assets\\_myfolder\\transformshw\\scripts\\mover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\transformshw\\scripts\\mover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|c:\\users\\loner\\documents\\github\\coursehw\\coursehomeworks\\assets\\_myfolder\\counterhw\\scripts\\counter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\counterhw\\scripts\\counter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Scaler.cs",
-              "DocumentMoniker": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\TransformsHW\\Scripts\\Scaler.cs",
-              "RelativeDocumentMoniker": "Assets\\_myFolder\\TransformsHW\\Scripts\\Scaler.cs",
-              "ToolTip": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\TransformsHW\\Scripts\\Scaler.cs",
-              "RelativeToolTip": "Assets\\_myFolder\\TransformsHW\\Scripts\\Scaler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
+              "Title": "Counter.cs",
+              "DocumentMoniker": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\CounterHW\\Scripts\\Counter.cs",
+              "RelativeDocumentMoniker": "Assets\\_myFolder\\CounterHW\\Scripts\\Counter.cs",
+              "ToolTip": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\CounterHW\\Scripts\\Counter.cs",
+              "RelativeToolTip": "Assets\\_myFolder\\CounterHW\\Scripts\\Counter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T10:08:34.51Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Rotator.cs",
-              "DocumentMoniker": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\TransformsHW\\Scripts\\Rotator.cs",
-              "RelativeDocumentMoniker": "Assets\\_myFolder\\TransformsHW\\Scripts\\Rotator.cs",
-              "ToolTip": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\TransformsHW\\Scripts\\Rotator.cs",
-              "RelativeToolTip": "Assets\\_myFolder\\TransformsHW\\Scripts\\Rotator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T10:05:25.654Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Mover.cs",
-              "DocumentMoniker": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\TransformsHW\\Scripts\\Mover.cs",
-              "RelativeDocumentMoniker": "Assets\\_myFolder\\TransformsHW\\Scripts\\Mover.cs",
-              "ToolTip": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\TransformsHW\\Scripts\\Mover.cs",
-              "RelativeToolTip": "Assets\\_myFolder\\TransformsHW\\Scripts\\Mover.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T10:01:46.705Z",
+              "WhenOpened": "2025-12-22T15:46:31.734Z",
               "EditorCaption": ""
             }
           ]
