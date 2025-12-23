@@ -64,8 +64,12 @@
     <Compile Include="Assets\_myFolder\CounterHW\Scripts\CounterView.cs" />
     <Compile Include="Assets\_myFolder\TransformsHW\Scripts\Rotator.cs" />
     <Compile Include="Assets\_myFolder\CounterHW\Scripts\InputReader.cs" />
+    <Compile Include="Assets\_myFolder\CubesExplosionsHW\Scripts\ExplosionSpawner.cs" />
+    <Compile Include="Assets\_myFolder\CubesExplosionsHW\Scripts\ExplosionCube.cs" />
+    <Compile Include="Assets\_myFolder\CubesExplosionsHW\Scripts\CubesSpawner.cs" />
     <Compile Include="Assets\_myFolder\TransformsHW\Scripts\Mover.cs" />
     <Compile Include="Assets\_myFolder\CounterHW\Scripts\Counter.cs" />
+    <Compile Include="Assets\_myFolder\CubesExplosionsHW\Scripts\CubeClickChecker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
