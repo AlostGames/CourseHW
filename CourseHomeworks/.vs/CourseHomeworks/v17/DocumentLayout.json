@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|c:\\users\\loner\\documents\\github\\coursehw\\coursehomeworks\\assets\\_myfolder\\counterhw\\scripts\\counter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\counterhw\\scripts\\counter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|c:\\users\\loner\\documents\\github\\coursehw\\coursehomeworks\\assets\\_myfolder\\counterhw\\scripts\\counterview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\counterhw\\scripts\\counterview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|c:\\users\\loner\\documents\\github\\coursehw\\coursehomeworks\\assets\\_myfolder\\counterhw\\scripts\\inputreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\counterhw\\scripts\\inputreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +22,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InputReader.cs",
+              "DocumentMoniker": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\CounterHW\\Scripts\\InputReader.cs",
+              "RelativeDocumentMoniker": "Assets\\_myFolder\\CounterHW\\Scripts\\InputReader.cs",
+              "ToolTip": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\CounterHW\\Scripts\\InputReader.cs",
+              "RelativeToolTip": "Assets\\_myFolder\\CounterHW\\Scripts\\InputReader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T08:02:59.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CounterView.cs",
+              "DocumentMoniker": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\CounterHW\\Scripts\\CounterView.cs",
+              "RelativeDocumentMoniker": "Assets\\_myFolder\\CounterHW\\Scripts\\CounterView.cs",
+              "ToolTip": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\CounterHW\\Scripts\\CounterView.cs",
+              "RelativeToolTip": "Assets\\_myFolder\\CounterHW\\Scripts\\CounterView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T08:02:56.401Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +58,7 @@
               "RelativeDocumentMoniker": "Assets\\_myFolder\\CounterHW\\Scripts\\Counter.cs",
               "ToolTip": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\CounterHW\\Scripts\\Counter.cs",
               "RelativeToolTip": "Assets\\_myFolder\\CounterHW\\Scripts\\Counter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwCgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-22T15:46:31.734Z",
               "EditorCaption": ""

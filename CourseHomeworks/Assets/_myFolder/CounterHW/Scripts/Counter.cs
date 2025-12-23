@@ -1,41 +1,47 @@
+using System;
 using System.Collections;
-using TMPro;
 using UnityEngine;
 
 public class Counter : MonoBehaviour
 {
-    [SerializeField] private TextMeshProUGUI _text;
+    [SerializeField] private InputReader _inputReader;
     [SerializeField] private float _increaseSpeed = 0.5f;
-    [SerializeField] private Color32 _enabledColor = Color.green;
-    [SerializeField] private Color32 _disabledColor = Color.red;
+
     private bool _isCounterEnable = false;
     private int _startScore = 0;
     private int _currentScore;
     private Coroutine _coroutine;
 
-    private void Start()
+    public event Action<int> ScoreChanged;
+
+    public int StartScore => _startScore;
+
+    private void Awake()
     {
         _currentScore = _startScore;
-        _text.color = _disabledColor;
-        _text.text = _startScore.ToString();
     }
 
-    private void Update()
+    private void OnEnable()
     {
-        if (Input.GetMouseButtonDown(0))
+        _inputReader.MouseButtonDown += ChangeCounterEnable;
+    }
+
+    private void OnDisable()
+    {
+        _inputReader.MouseButtonDown -= ChangeCounterEnable;
+    }
+
+    private void ChangeCounterEnable()
+    {
+        if (_isCounterEnable == false)
         {
-            if (_isCounterEnable == false)
-            {
-                _coroutine = StartCoroutine(CountIncrease(_increaseSpeed));
-                _text.color = _enabledColor;
-                _isCounterEnable = true;
-            }
-            else
-            {
-                StopCoroutine(_coroutine);
-                _text.color = _disabledColor;
-                _isCounterEnable = false;
-            }
+            _isCounterEnable = true;
+            _coroutine = StartCoroutine(CountIncrease(_increaseSpeed));
+        }
+        else
+        {
+            _isCounterEnable = false;
+            StopCoroutine(_coroutine);
         }
     }
 
@@ -43,16 +49,11 @@ public class Counter : MonoBehaviour
     {
         var wait = new WaitForSeconds(delay);
 
-        while (true)
+        while (enabled)
         {
             _currentScore++;
-            DisplayCount();
+            ScoreChanged?.Invoke(_currentScore);
             yield return wait;
         }
-    }
-
-    private void DisplayCount()
-    {
-        _text.text = _currentScore.ToString();
     }
 }

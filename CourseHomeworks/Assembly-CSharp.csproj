@@ -61,7 +61,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\_myFolder\TransformsHW\Scripts\Scaler.cs" />
+    <Compile Include="Assets\_myFolder\CounterHW\Scripts\CounterView.cs" />
     <Compile Include="Assets\_myFolder\TransformsHW\Scripts\Rotator.cs" />
+    <Compile Include="Assets\_myFolder\CounterHW\Scripts\InputReader.cs" />
     <Compile Include="Assets\_myFolder\TransformsHW\Scripts\Mover.cs" />
     <Compile Include="Assets\_myFolder\CounterHW\Scripts\Counter.cs" />
   </ItemGroup>
