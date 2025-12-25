@@ -1,12 +1,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ExplosionSpawner : MonoBehaviour
+public class Exploder : MonoBehaviour
 {
     private float _force = 500;
     private float _radius = 5;
 
-    public void SpawnExplosion()
+    public void Explode()
     {
         foreach (Rigidbody explodableObject in GetExplodableObjects())
         {

@@ -60,16 +60,18 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.62f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\_myFolder\CubesExplosionsHW\Scripts\SplitManager.cs" />
+    <Compile Include="Assets\_myFolder\CubesExplosionsHW\Scripts\Spawner.cs" />
     <Compile Include="Assets\_myFolder\TransformsHW\Scripts\Scaler.cs" />
     <Compile Include="Assets\_myFolder\CounterHW\Scripts\CounterView.cs" />
+    <Compile Include="Assets\_myFolder\CubesExplosionsHW\Scripts\ClickChecker.cs" />
     <Compile Include="Assets\_myFolder\TransformsHW\Scripts\Rotator.cs" />
     <Compile Include="Assets\_myFolder\CounterHW\Scripts\InputReader.cs" />
-    <Compile Include="Assets\_myFolder\CubesExplosionsHW\Scripts\ExplosionSpawner.cs" />
-    <Compile Include="Assets\_myFolder\CubesExplosionsHW\Scripts\ExplosionCube.cs" />
-    <Compile Include="Assets\_myFolder\CubesExplosionsHW\Scripts\CubesSpawner.cs" />
+    <Compile Include="Assets\_myFolder\CubesExplosionsHW\Scripts\ColorChanger.cs" />
+    <Compile Include="Assets\_myFolder\CubesExplosionsHW\Scripts\Cube.cs" />
     <Compile Include="Assets\_myFolder\TransformsHW\Scripts\Mover.cs" />
     <Compile Include="Assets\_myFolder\CounterHW\Scripts\Counter.cs" />
-    <Compile Include="Assets\_myFolder\CubesExplosionsHW\Scripts\CubeClickChecker.cs" />
+    <Compile Include="Assets\_myFolder\CubesExplosionsHW\Scripts\Exploder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
