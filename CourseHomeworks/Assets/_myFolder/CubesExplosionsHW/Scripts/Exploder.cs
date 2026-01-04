@@ -6,28 +6,12 @@ public class Exploder : MonoBehaviour
     private float _force = 500;
     private float _radius = 5;
 
-    public void Explode()
+    public void Explode(Vector3 explodePosition, List<GameObject> _explodableCubes)
     {
-        foreach (Rigidbody explodableObject in GetExplodableObjects())
+        foreach (GameObject explodableObject in _explodableCubes)
         {
-            explodableObject.AddExplosionForce(_force, transform.position, _radius);
+            explodableObject.GetComponent<Rigidbody>().
+                AddExplosionForce(_force, explodePosition, _radius);
         }
-    }
-
-    private List<Rigidbody> GetExplodableObjects()
-    {
-        Collider[] hits = Physics.OverlapSphere(transform.position, _radius);
-
-        List<Rigidbody> cubes = new();
-
-        foreach (Collider hit in hits)
-        {
-            if (hit.attachedRigidbody != null)
-            {
-                cubes.Add(hit.attachedRigidbody);
-            }
-        }
-
-        return cubes;
     }
 }

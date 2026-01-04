@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ExplosionCube (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8013988233951722448, guid: c9e6d5e85e496c84b9857a0ecc7baac2, type: 3}
+      propertyPath: _spawner
+      value: 
+      objectReference: {fileID: 504880134}
     - target: {fileID: 9026002566946262131, guid: c9e6d5e85e496c84b9857a0ecc7baac2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -232,6 +236,97 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &246773044
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 246773045}
+  - component: {fileID: 246773046}
+  m_Layer: 0
+  m_Name: Exploader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &246773045
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246773044}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &246773046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246773044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4166f5382b7f6147adf914fffd37eb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &351361165
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 351361166}
+  - component: {fileID: 351361167}
+  m_Layer: 0
+  m_Name: Splitter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &351361166
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351361165}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &351361167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351361165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4b34b5f6cc489439a5f736b55f4ebd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _raycaster: {fileID: 1475670875}
+  _spawner: {fileID: 504880134}
+  _exploder: {fileID: 246773046}
 --- !u!1 &448500435
 GameObject:
   m_ObjectHideFlags: 0
@@ -285,6 +380,51 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &504880133
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 504880135}
+  - component: {fileID: 504880134}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &504880134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504880133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 426ddb57c18f655428cfaba63ce995fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cube: {fileID: 1796758364350849969, guid: c9e6d5e85e496c84b9857a0ecc7baac2, type: 3}
+--- !u!4 &504880135
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504880133}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &528996949
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -297,6 +437,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ExplosionCube (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8013988233951722448, guid: c9e6d5e85e496c84b9857a0ecc7baac2, type: 3}
+      propertyPath: _spawner
+      value: 
+      objectReference: {fileID: 504880134}
     - target: {fileID: 9026002566946262131, guid: c9e6d5e85e496c84b9857a0ecc7baac2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -446,6 +590,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ExplosionCube (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8013988233951722448, guid: c9e6d5e85e496c84b9857a0ecc7baac2, type: 3}
+      propertyPath: _spawner
+      value: 
+      objectReference: {fileID: 504880134}
     - target: {fileID: 9026002566946262131, guid: c9e6d5e85e496c84b9857a0ecc7baac2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.65
@@ -612,6 +760,50 @@ Transform:
   - {fileID: 843929383}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1475670873
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1475670874}
+  - component: {fileID: 1475670875}
+  m_Layer: 0
+  m_Name: Raycaster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1475670874
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475670873}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1475670875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475670873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c072d48942cd5a74882b9c5f1d647c81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1842777809
 GameObject:
   m_ObjectHideFlags: 0
@@ -876,6 +1068,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ExplosionCube
       objectReference: {fileID: 0}
+    - target: {fileID: 8013988233951722448, guid: c9e6d5e85e496c84b9857a0ecc7baac2, type: 3}
+      propertyPath: _spawner
+      value: 
+      objectReference: {fileID: 504880134}
     - target: {fileID: 9026002566946262131, guid: c9e6d5e85e496c84b9857a0ecc7baac2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.93
@@ -932,3 +1128,7 @@ SceneRoots:
   - {fileID: 528996949}
   - {fileID: 662521400}
   - {fileID: 129018533}
+  - {fileID: 351361166}
+  - {fileID: 504880135}
+  - {fileID: 246773045}
+  - {fileID: 1475670874}
