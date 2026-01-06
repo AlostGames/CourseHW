@@ -8,22 +8,26 @@ public class Raycaster : MonoBehaviour
 
     public event Action<Cube> CubeClick;
 
-    void Update()
+    private void Update()
     {
         if (Input.GetMouseButtonDown(_buttonCode))
         {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            Raycast();
+        }
+    }
 
-            if (Physics.Raycast(ray, out RaycastHit hit))
-            {
-                _clickedCube = hit.collider.GetComponent<Cube>();
-            }
+    private void Raycast()
+    {
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
-            if (_clickedCube != null)
-            {
-                CubeClick?.Invoke(_clickedCube);
-                _clickedCube.Destroy();
-            }
+        if (Physics.Raycast(ray, out RaycastHit hit))
+        {
+            _clickedCube = hit.collider.GetComponent<Cube>();
+        }
+
+        if (_clickedCube != null)
+        {
+            CubeClick?.Invoke(_clickedCube);
         }
     }
 }

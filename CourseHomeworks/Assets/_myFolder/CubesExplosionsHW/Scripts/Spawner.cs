@@ -12,37 +12,33 @@ public class Spawner : MonoBehaviour
     private float _deltaY = 1;
     private float _spreadMultiplier = 2;
     private float _offsetAlignment = 0.5f;
-    private List<GameObject> _spawnedCubes = new List<GameObject>();
+    private List<Rigidbody> _spawnedCubes = new List<Rigidbody>();
 
     private System.Random _random = new();
 
-    public List<GameObject> SpawnedCubes => _spawnedCubes;
+    public List<Rigidbody> SpawnedCubes => _spawnedCubes;
 
-    private void Start()
-    {
-        foreach (Cube cube in FindObjectsOfType<Cube>())
-        {
-            cube.Death += DestroyCube;
-        }
-    }
-
-    public void SpawnCubes(float parentSplitChance, Vector3 parentScale, Vector3 parentPosition)
+    public void SpawnCubes(Cube parentCube)
     {
         _spawnedCubes.Clear();
         int countCubes = _random.Next(_minCountCubes, _maxCountCubes + 1);
 
         for (int i = 0; i < countCubes; i++)
         {
-            Vector3 spawnPosition = CalculateSpawnPosition(parentPosition);
+            Vector3 spawnPosition = CalculateSpawnPosition(parentCube.Position);
             Cube explosionCube = Instantiate(_cube, spawnPosition, Quaternion.identity);
 
-            explosionCube.Initialize(parentSplitChance * _splitChanceMultiplier,
-                parentScale * _scaleMultiplier);
+            explosionCube.Initialize(parentCube.SplitChance * _splitChanceMultiplier,
+                parentCube.Scale * _scaleMultiplier);
 
-            explosionCube.Death += DestroyCube;
-
-            _spawnedCubes.Add(explosionCube.gameObject);
+            if (explosionCube.gameObject.GetComponent<Rigidbody>() != null)
+                _spawnedCubes.Add(explosionCube.gameObject.GetComponent<Rigidbody>());
         }
+    }
+
+    public void DestroyCube(Cube cube)
+    {
+        Destroy(cube.gameObject);
     }
 
     private Vector3 CalculateSpawnPosition(Vector3 zeroPosition)
@@ -53,10 +49,5 @@ public class Spawner : MonoBehaviour
         return new Vector3(zeroPosition.x + deltaX * _spreadMultiplier,
                 zeroPosition.y + _deltaY,
                 zeroPosition.z + deltaZ * _spreadMultiplier);
-    }
-
-    private void DestroyCube(Cube cube)
-    {
-        Destroy(cube.gameObject);
     }
 }

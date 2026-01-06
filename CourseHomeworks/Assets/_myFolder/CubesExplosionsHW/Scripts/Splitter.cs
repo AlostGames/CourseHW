@@ -22,8 +22,10 @@ public class Splitter : MonoBehaviour
     {
         if (cube.SplitChance >= _random.NextDouble())
         {
-            _spawner.SpawnCubes(cube.SplitChance, cube.Scale, cube.Position);
+            _spawner.SpawnCubes(cube);
             _exploder.Explode(cube.Position, _spawner.SpawnedCubes);
         }
+
+        _spawner.DestroyCube(cube);
     }
 }

@@ -6,12 +6,11 @@ public class Exploder : MonoBehaviour
     private float _force = 500;
     private float _radius = 5;
 
-    public void Explode(Vector3 explodePosition, List<GameObject> _explodableCubes)
+    public void Explode(Vector3 explodePosition, List<Rigidbody> explodableCubes)
     {
-        foreach (GameObject explodableObject in _explodableCubes)
+        foreach (Rigidbody explodableObject in explodableCubes)
         {
-            explodableObject.GetComponent<Rigidbody>().
-                AddExplosionForce(_force, explodePosition, _radius);
+            explodableObject.AddExplosionForce(_force, explodePosition, _radius);
         }
     }
 }
