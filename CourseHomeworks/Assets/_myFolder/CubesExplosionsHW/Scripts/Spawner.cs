@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class Spawner : MonoBehaviour
@@ -7,6 +8,8 @@ public class Spawner : MonoBehaviour
 
     private float _scaleMultiplier = 0.5f;
     private float _splitChanceMultiplier = 0.5f;
+    private float _explosionRadiusMultiplier = 2f;
+    private float _explosionForceMultiplier = 2f;
     private int _minCountCubes = 2;
     private int _maxCountCubes = 6;
     private float _deltaY = 1;
@@ -16,9 +19,7 @@ public class Spawner : MonoBehaviour
 
     private System.Random _random = new();
 
-    public List<Rigidbody> SpawnedCubes => _spawnedCubes;
-
-    public void SpawnCubes(Cube parentCube)
+    public List<Rigidbody> SpawnCubes(Cube parentCube)
     {
         _spawnedCubes.Clear();
         int countCubes = _random.Next(_minCountCubes, _maxCountCubes + 1);
@@ -29,11 +30,15 @@ public class Spawner : MonoBehaviour
             Cube explosionCube = Instantiate(_cube, spawnPosition, Quaternion.identity);
 
             explosionCube.Initialize(parentCube.SplitChance * _splitChanceMultiplier,
+                parentCube.ExplosionRadius * _explosionRadiusMultiplier,
+                parentCube.ExplosionForce * _explosionForceMultiplier,
                 parentCube.Scale * _scaleMultiplier);
 
             if (explosionCube.gameObject.GetComponent<Rigidbody>() != null)
                 _spawnedCubes.Add(explosionCube.gameObject.GetComponent<Rigidbody>());
         }
+
+        return _spawnedCubes.ToList();
     }
 
     public void DestroyCube(Cube cube)

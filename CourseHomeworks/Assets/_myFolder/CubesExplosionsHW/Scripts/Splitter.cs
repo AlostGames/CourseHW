@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Splitter : MonoBehaviour
@@ -22,8 +23,12 @@ public class Splitter : MonoBehaviour
     {
         if (cube.SplitChance >= _random.NextDouble())
         {
-            _spawner.SpawnCubes(cube);
-            _exploder.Explode(cube.Position, _spawner.SpawnedCubes);
+            List<Rigidbody> spawnedCubes = _spawner.SpawnCubes(cube);
+            _exploder.Scatter(cube.Position, spawnedCubes);
+        }
+        else
+        {
+            _exploder.Explode(cube.Position, cube.ExplosionRadius, cube.ExplosionForce);
         }
 
         _spawner.DestroyCube(cube);
