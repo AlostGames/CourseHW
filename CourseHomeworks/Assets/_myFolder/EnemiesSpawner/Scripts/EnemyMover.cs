@@ -1,18 +1,19 @@
 using UnityEngine;
 
-public class EnemyMove : MonoBehaviour
+[RequireComponent(typeof(Rigidbody))] 
+public class EnemyMover : MonoBehaviour
 {
     [SerializeField] private float _speed = 2;
 
     private Rigidbody _rigidbody;
     private Vector3 _direction;
 
-    private void Start()
+    private void Awake()
     {
         _rigidbody = GetComponent<Rigidbody>();
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         Move();
     }
@@ -25,9 +26,8 @@ public class EnemyMove : MonoBehaviour
 
     private void Move()
     {
-        if (_rigidbody != null)
-            _rigidbody.MovePosition(transform.position + 
-            _direction.normalized * _speed * Time.fixedDeltaTime);
+        _rigidbody.MovePosition(transform.position + 
+        _direction.normalized * _speed * Time.fixedDeltaTime);
     }
 
     private void LookAtDirection(Vector3 direction)

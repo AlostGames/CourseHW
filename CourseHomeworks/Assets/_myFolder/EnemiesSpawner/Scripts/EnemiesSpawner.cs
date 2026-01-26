@@ -1,25 +1,32 @@
+using System.Collections;
 using UnityEngine;
 
 public class EnemiesSpawner : MonoBehaviour
 {
-    [SerializeField] private EnemyMove _enemy;
+    [SerializeField] private EnemyMover _enemy;
     [SerializeField] private Transform[] _spawnpoints;
-    [SerializeField] private float _reload = 0.5f;
+    [SerializeField] private float _reload = 2f;
 
-    private float _startTime = 0;
     private float _offset = 0.5f;
 
     private void Start()
     {
-        InvokeRepeating(nameof(Spawn), _startTime, _reload);
+        StartCoroutine(Spawn());
     }
 
-    private void Spawn()
+    private IEnumerator Spawn()
     {
-        Vector3 spawnpoint = ChooseSpawnpoint();
+        var wait = new WaitForSeconds(_reload);
 
-        EnemyMove enemy = Instantiate(_enemy, spawnpoint, Quaternion.identity);
-        enemy.SetDirection(ChooseDirection());
+        while (true)
+        {
+            Vector3 spawnpoint = ChooseSpawnpoint();
+
+            EnemyMover enemy = Instantiate(_enemy, spawnpoint, Quaternion.identity);
+            enemy.SetDirection(ChooseDirection());
+
+            yield return wait;
+        }
     }
 
     private Vector3 ChooseSpawnpoint()

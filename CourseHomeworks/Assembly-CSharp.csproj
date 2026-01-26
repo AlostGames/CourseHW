@@ -63,9 +63,9 @@
     <Compile Include="Assets\_myFolder\CubesExplosionsHW\Scripts\Spawner.cs" />
     <Compile Include="Assets\_myFolder\CubesExplosionsHW\Scripts\Splitter.cs" />
     <Compile Include="Assets\_myFolder\CubesExplosionsHW\Scripts\Raycaster.cs" />
-    <Compile Include="Assets\_myFolder\EnemiesSpawner\Scripts\EnemyMove.cs" />
     <Compile Include="Assets\_myFolder\CubesExplosionsHW\Scripts\ColorChanger.cs" />
     <Compile Include="Assets\_myFolder\CubesExplosionsHW\Scripts\Cube.cs" />
+    <Compile Include="Assets\_myFolder\EnemiesSpawner\Scripts\EnemyMover.cs" />
     <Compile Include="Assets\_myFolder\EnemiesSpawner\Scripts\EnemiesSpawner.cs" />
     <Compile Include="Assets\_myFolder\CubesExplosionsHW\Scripts\Exploder.cs" />
   </ItemGroup>
