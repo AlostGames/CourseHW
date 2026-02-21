@@ -3,7 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|c:\\users\\loner\\documents\\github\\coursehw\\coursehomeworks\\assets\\_myfolder\\enemiesspawner\\scripts\\enemymover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\assets\\_myfolder\\cubes rain\\scripts\\platform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\cubes rain\\scripts\\platform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\assets\\_myfolder\\cubes rain\\scripts\\cube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\cubes rain\\scripts\\cube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|c:\\users\\loner\\documents\\github\\coursehw\\coursehomeworks\\assets\\_myfolder\\cubes rain\\scripts\\cubesspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\cubes rain\\scripts\\cubesspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\assets\\_myfolder\\enemiesspawner\\scripts\\enemymover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\enemiesspawner\\scripts\\enemymover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -14,28 +26,24 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Loner\\Main TD\\Assets\\_myProject\\Scripts\\Towers\\AnimationsTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\assets\\_myfolder\\cubesexplosionshw\\scripts\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\cubesexplosionshw\\scripts\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\CubesExplosionsHW\\Scripts\\Raycaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\_myFolder\\CubesExplosionsHW\\Scripts\\Raycaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\assets\\_myfolder\\cubesexplosionshw\\scripts\\cube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\cubesexplosionshw\\scripts\\cube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\CubesExplosionsHW\\Scripts\\Splitter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\_myFolder\\CubesExplosionsHW\\Scripts\\Splitter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\assets\\_myfolder\\cubesexplosionshw\\scripts\\raycaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\cubesexplosionshw\\scripts\\raycaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\CubesExplosionsHW\\Scripts\\ColorChanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\_myFolder\\CubesExplosionsHW\\Scripts\\ColorChanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\assets\\_myfolder\\cubesexplosionshw\\scripts\\splitter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\cubesexplosionshw\\scripts\\splitter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\CubesExplosionsHW\\Scripts\\Exploder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\_myFolder\\CubesExplosionsHW\\Scripts\\Exploder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\assets\\_myfolder\\cubesexplosionshw\\scripts\\colorchanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\cubesexplosionshw\\scripts\\colorchanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\assets\\_myfolder\\cubesexplosionshw\\scripts\\exploder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\cubesexplosionshw\\scripts\\exploder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\CubesExplosionsHW\\Scripts\\Spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\_myFolder\\CubesExplosionsHW\\Scripts\\Spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -45,11 +53,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Platform.cs",
+              "DocumentMoniker": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\Cubes rain\\Scripts\\Platform.cs",
+              "RelativeDocumentMoniker": "Assets\\_myFolder\\Cubes rain\\Scripts\\Platform.cs",
+              "ToolTip": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\Cubes rain\\Scripts\\Platform.cs",
+              "RelativeToolTip": "Assets\\_myFolder\\Cubes rain\\Scripts\\Platform.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T13:12:13.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cube.cs",
+              "DocumentMoniker": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\Cubes rain\\Scripts\\Cube.cs",
+              "RelativeDocumentMoniker": "Assets\\_myFolder\\Cubes rain\\Scripts\\Cube.cs",
+              "ToolTip": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\Cubes rain\\Scripts\\Cube.cs",
+              "RelativeToolTip": "Assets\\_myFolder\\Cubes rain\\Scripts\\Cube.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T12:33:32.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "CubesSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\Cubes rain\\Scripts\\CubesSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\_myFolder\\Cubes rain\\Scripts\\CubesSpawner.cs",
+              "ToolTip": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\Cubes rain\\Scripts\\CubesSpawner.cs",
+              "RelativeToolTip": "Assets\\_myFolder\\Cubes rain\\Scripts\\CubesSpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T12:24:05.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "AnimationsTest.cs",
               "DocumentMoniker": "C:\\Users\\Loner\\Main TD\\Assets\\_myProject\\Scripts\\Towers\\AnimationsTest.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Main TD\\Assets\\_myProject\\Scripts\\Towers\\AnimationsTest.cs",
@@ -57,12 +104,11 @@
               "RelativeToolTip": "..\\..\\..\\..\\Main TD\\Assets\\_myProject\\Scripts\\Towers\\AnimationsTest.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAAADUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-23T18:35:53.245Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-23T18:35:53.245Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "EnemyMover.cs",
               "DocumentMoniker": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\EnemiesSpawner\\Scripts\\EnemyMover.cs",
               "RelativeDocumentMoniker": "Assets\\_myFolder\\EnemiesSpawner\\Scripts\\EnemyMover.cs",
@@ -70,12 +116,11 @@
               "RelativeToolTip": "Assets\\_myFolder\\EnemiesSpawner\\Scripts\\EnemyMover.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-23T18:25:29.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-23T18:25:29.786Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "EnemiesSpawner.cs",
               "DocumentMoniker": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\EnemiesSpawner\\Scripts\\EnemiesSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\_myFolder\\EnemiesSpawner\\Scripts\\EnemiesSpawner.cs",
@@ -83,24 +128,11 @@
               "RelativeToolTip": "Assets\\_myFolder\\EnemiesSpawner\\Scripts\\EnemiesSpawner.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-23T18:13:37.101Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-23T18:13:37.101Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Cube.cs",
-              "DocumentMoniker": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\CubesExplosionsHW\\Scripts\\Cube.cs",
-              "RelativeDocumentMoniker": "Assets\\_myFolder\\CubesExplosionsHW\\Scripts\\Cube.cs",
-              "ToolTip": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\CubesExplosionsHW\\Scripts\\Cube.cs",
-              "RelativeToolTip": "Assets\\_myFolder\\CubesExplosionsHW\\Scripts\\Cube.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T13:12:32.996Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Raycaster.cs",
               "DocumentMoniker": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\CubesExplosionsHW\\Scripts\\Raycaster.cs",
               "RelativeDocumentMoniker": "Assets\\_myFolder\\CubesExplosionsHW\\Scripts\\Raycaster.cs",
@@ -112,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Splitter.cs",
               "DocumentMoniker": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\CubesExplosionsHW\\Scripts\\Splitter.cs",
               "RelativeDocumentMoniker": "Assets\\_myFolder\\CubesExplosionsHW\\Scripts\\Splitter.cs",
@@ -124,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ColorChanger.cs",
               "DocumentMoniker": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\CubesExplosionsHW\\Scripts\\ColorChanger.cs",
               "RelativeDocumentMoniker": "Assets\\_myFolder\\CubesExplosionsHW\\Scripts\\ColorChanger.cs",
@@ -136,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Exploder.cs",
               "DocumentMoniker": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\CubesExplosionsHW\\Scripts\\Exploder.cs",
               "RelativeDocumentMoniker": "Assets\\_myFolder\\CubesExplosionsHW\\Scripts\\Exploder.cs",
@@ -148,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "Spawner.cs",
               "DocumentMoniker": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\CubesExplosionsHW\\Scripts\\Spawner.cs",
               "RelativeDocumentMoniker": "Assets\\_myFolder\\CubesExplosionsHW\\Scripts\\Spawner.cs",
