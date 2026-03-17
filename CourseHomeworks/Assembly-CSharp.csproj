@@ -61,6 +61,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\_myFolder\Cubes rain\Scripts\Cube.cs" />
+    <Compile Include="Assets\_myFolder\EnemiesSpawner\Scripts\TargetMover.cs" />
+    <Compile Include="Assets\_myFolder\EnemiesSpawner\Scripts\SpawnPoint.cs" />
     <Compile Include="Assets\_myFolder\EnemiesSpawner\Scripts\EnemyMover.cs" />
     <Compile Include="Assets\_myFolder\EnemiesSpawner\Scripts\EnemiesSpawner.cs" />
     <Compile Include="Assets\_myFolder\Cubes rain\Scripts\CubesSpawner.cs" />

@@ -3,11 +3,8 @@ using UnityEngine;
 
 public class EnemiesSpawner : MonoBehaviour
 {
-    [SerializeField] private EnemyMover _enemy;
-    [SerializeField] private Transform[] _spawnpoints;
+    [SerializeField] private SpawnPoint[] _spawnpoints;
     [SerializeField] private float _reload = 2f;
-
-    private float _offset = 0.5f;
 
     private void Start()
     {
@@ -20,28 +17,18 @@ public class EnemiesSpawner : MonoBehaviour
 
         while (true)
         {
-            Vector3 spawnpoint = ChooseSpawnpoint();
-
-            EnemyMover enemy = Instantiate(_enemy, spawnpoint, Quaternion.identity);
-            enemy.SetDirection(ChooseDirection());
+            SpawnPoint spawnpoint = ChooseSpawnpoint();
+            spawnpoint.Spawn();
 
             yield return wait;
         }
     }
 
-    private Vector3 ChooseSpawnpoint()
+    private SpawnPoint ChooseSpawnpoint()
     {
         System.Random random = new System.Random();
         int index = random.Next(0, _spawnpoints.Length);
 
-        return _spawnpoints[index].position;
-    }
-
-    private Vector3 ChooseDirection()
-    {
-        System.Random random = new System.Random();
-        return new Vector3((float)random.NextDouble() - _offset,
-                            0,
-                           (float)random.NextDouble() - _offset);
+        return _spawnpoints[index];
     }
 }
