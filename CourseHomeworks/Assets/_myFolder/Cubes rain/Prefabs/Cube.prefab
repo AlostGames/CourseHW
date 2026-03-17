@@ -147,6 +147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _renderer: {fileID: 7213198892795435496}
+  _rigidbody: {fileID: -3545850268674616244}
   _defaultColor:
     serializedVersion: 2
     rgba: 4294967295

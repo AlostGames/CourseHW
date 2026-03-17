@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Pool;
 
@@ -12,22 +13,7 @@ public class CubesSpawner : MonoBehaviour
     private System.Random _random = new System.Random();
 
     private ObjectPool<Cube> _pool;
-
-    private void OnEnable()
-    {
-        foreach (Platform platform in FindObjectsOfType<Platform>())
-        {
-            platform.TouchingCube += ActivateCube;
-        }
-    }
-
-    private void OnDisable()
-    {
-        foreach (Platform platform in FindObjectsOfType<Platform>())
-        {
-            platform.TouchingCube -= ActivateCube;
-        }
-    }
+    private Coroutine _spawningCoroutine;
 
     private void Awake()
     {
@@ -43,13 +29,13 @@ public class CubesSpawner : MonoBehaviour
 
     private void Start()
     {
-        InvokeRepeating(nameof(GetCube), 0.0f, _repeatRate);
+        StartSpawning();
     }
 
     private void ActionOnGet(Cube cube)
     {
-        cube.transform.position = ChooseSpawnPoint();
-        cube.GetComponent<Rigidbody>().velocity = Vector3.zero;
+        cube.Died += DeactivateCube;
+        cube.transform.position = ChooseSpawnPoint();       
         cube.SetDefaultStats();
         cube.gameObject.SetActive(true);
     }
@@ -59,15 +45,9 @@ public class CubesSpawner : MonoBehaviour
         _pool.Get();
     }
 
-    private void ActivateCube(Cube cube)
-    {
-        cube.Activate();
-        cube.Died -= DeactivateCube;
-        cube.Died += DeactivateCube;
-    }
-
     private void DeactivateCube(Cube cube)
     {
+        cube.Died -= DeactivateCube;
         _pool.Release(cube);
     }
 
@@ -81,5 +61,22 @@ public class CubesSpawner : MonoBehaviour
             (float)_random.NextDouble() * zoneSizeZ - zoneSizeZ / 2;
 
         return new Vector3(spawnpointX, _spawnZone.transform.position.y, spawnpointZ);
+    }
+
+    private void StartSpawning()
+    {
+        if (_spawningCoroutine != null)
+            StopCoroutine(_spawningCoroutine);
+
+        _spawningCoroutine = StartCoroutine(SpawningRoutine());
+    }
+
+    private IEnumerator SpawningRoutine()
+    {
+        while (true)
+        {
+            GetCube();
+            yield return new WaitForSeconds(_repeatRate);
+        }
     }
 }
