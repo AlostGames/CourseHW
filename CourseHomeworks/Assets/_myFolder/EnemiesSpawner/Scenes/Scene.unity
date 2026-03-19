@@ -589,8 +589,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9140654979097488573, guid: 230bb4f25ad2cfa4bb34d7d3cf9e387f, type: 3}
       propertyPath: m_Materials.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9140654979097488573, guid: 230bb4f25ad2cfa4bb34d7d3cf9e387f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 00107410a8ce9784fab1bded107ec621, type: 2}
     - target: {fileID: 9140654979097488573, guid: 230bb4f25ad2cfa4bb34d7d3cf9e387f, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
@@ -759,8 +763,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9140654979097488573, guid: 230bb4f25ad2cfa4bb34d7d3cf9e387f, type: 3}
       propertyPath: m_Materials.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9140654979097488573, guid: 230bb4f25ad2cfa4bb34d7d3cf9e387f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0660db2baad4125428d83181a17acc1b, type: 2}
     - target: {fileID: 9140654979097488573, guid: 230bb4f25ad2cfa4bb34d7d3cf9e387f, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
@@ -1013,11 +1021,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ec2b036b70d9214492af9010d8b0145, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spawnpoints:
+  _spawnPoints:
   - {fileID: 1627160588}
   - {fileID: 1558838244}
   - {fileID: 2147442690}
-  _reload: 2
+  _cooldown: 2
 --- !u!4 &1998937892
 Transform:
   m_ObjectHideFlags: 0

@@ -3,8 +3,8 @@ using UnityEngine;
 
 public class EnemiesSpawner : MonoBehaviour
 {
-    [SerializeField] private SpawnPoint[] _spawnpoints;
-    [SerializeField] private float _reload = 2f;
+    [SerializeField] private SpawnPoint[] _spawnPoints;
+    [SerializeField] private float _cooldown = 2f;
 
     private void Start()
     {
@@ -13,22 +13,21 @@ public class EnemiesSpawner : MonoBehaviour
 
     private IEnumerator Spawn()
     {
-        var wait = new WaitForSeconds(_reload);
+        var wait = new WaitForSeconds(_cooldown);
 
-        while (true)
+        while (enabled)
         {
-            SpawnPoint spawnpoint = ChooseSpawnpoint();
-            spawnpoint.Spawn();
+            SpawnPoint spawnPoint = ChooseSpawnPoint();
+            spawnPoint.Spawn();
 
             yield return wait;
         }
     }
 
-    private SpawnPoint ChooseSpawnpoint()
+    private SpawnPoint ChooseSpawnPoint()
     {
-        System.Random random = new System.Random();
-        int index = random.Next(0, _spawnpoints.Length);
+        int index = Random.Range(0, _spawnPoints.Length);
 
-        return _spawnpoints[index];
+        return _spawnPoints[index];
     }
 }
