@@ -5,23 +5,24 @@ using UnityEngine.Pool;
 public class CubesSpawner : MonoBehaviour
 {
     [SerializeField] private GameObject _spawnZone;
-    [SerializeField] private Cube _cube;
+    [SerializeField] private Cube _cubePrefab;
     [SerializeField] private float _repeatRate;
     [SerializeField] private int _poolCapacity;
     [SerializeField] private int _poolMaxSize;
 
-    private System.Random _random = new System.Random();
-
     private ObjectPool<Cube> _pool;
     private Coroutine _spawningCoroutine;
+    private WaitForSeconds _waitForSeconds;
 
     private void Awake()
     {
+        _waitForSeconds = new WaitForSeconds(_repeatRate);
+
         _pool = new ObjectPool<Cube>(
-            createFunc: () => Instantiate(_cube),
-            actionOnGet: (cube) => ActionOnGet(cube),
+            createFunc: () => Instantiate(_cubePrefab),
+            actionOnGet: OnGet,
             actionOnRelease: (cube) => cube.gameObject.SetActive(false),
-            actionOnDestroy: (cube) => Destroy(cube),
+            actionOnDestroy: Destroy,
             collectionCheck: true,
             defaultCapacity: _poolCapacity,
             maxSize: _poolMaxSize);
@@ -32,7 +33,7 @@ public class CubesSpawner : MonoBehaviour
         StartSpawning();
     }
 
-    private void ActionOnGet(Cube cube)
+    private void OnGet(Cube cube)
     {
         cube.Died += DeactivateCube;
         cube.transform.position = ChooseSpawnPoint();       
@@ -55,12 +56,17 @@ public class CubesSpawner : MonoBehaviour
     {
         float zoneSizeX = _spawnZone.transform.localScale.x;
         float zoneSizeZ = _spawnZone.transform.localScale.z;
+        float halfSizeX = zoneSizeX / 2;
+        float halfSizeZ = zoneSizeZ / 2;
         float spawnpointX = _spawnZone.transform.position.x + 
-            (float)_random.NextDouble() * zoneSizeX - zoneSizeX / 2;
+            Random.Range(0, zoneSizeX) - halfSizeX;
         float spawnpointZ = _spawnZone.transform.position.z +
-            (float)_random.NextDouble() * zoneSizeZ - zoneSizeZ / 2;
+            Random.Range(0, zoneSizeZ) - halfSizeZ;
 
-        return new Vector3(spawnpointX, _spawnZone.transform.position.y, spawnpointZ);
+        return new Vector3
+            (spawnpointX, 
+            _spawnZone.transform.position.y, 
+            spawnpointZ);
     }
 
     private void StartSpawning()
@@ -76,7 +82,7 @@ public class CubesSpawner : MonoBehaviour
         while (true)
         {
             GetCube();
-            yield return new WaitForSeconds(_repeatRate);
+            yield return _waitForSeconds;
         }
     }
 }

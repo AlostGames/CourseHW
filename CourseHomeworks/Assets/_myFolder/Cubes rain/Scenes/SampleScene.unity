@@ -246,7 +246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _spawnZone: {fileID: 605642396}
-  _cube: {fileID: 1275736405134816822, guid: 7b7863a996da49146a4c9f92688afdd8, type: 3}
+  _cubePrefab: {fileID: 1275736405134816822, guid: 7b7863a996da49146a4c9f92688afdd8, type: 3}
   _repeatRate: 0.5
   _poolCapacity: 0
   _poolMaxSize: 15

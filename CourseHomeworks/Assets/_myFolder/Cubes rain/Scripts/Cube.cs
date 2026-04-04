@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 public class Cube : MonoBehaviour
@@ -12,13 +13,11 @@ public class Cube : MonoBehaviour
 
     private bool _isActivated;
 
-    private System.Random _random = new System.Random();
-
     public Action<Cube> Died;
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.transform.tag == "Platform")
+        if (collision.transform.TryGetComponent<Platform>(out _))
         {
             Activate();
         }
@@ -39,9 +38,16 @@ public class Cube : MonoBehaviour
         {
             _isActivated = true;
             _renderer.material.color = _activatedColor;
-            Invoke("Death", (float)(_random.NextDouble() * (_maxDeathTime - _minDeathTime)
-                + _minDeathTime));
+            StartCoroutine(DeathRoutine());
         }
+    }
+
+    private IEnumerator DeathRoutine()
+    {
+        float randomDelay = UnityEngine.Random.Range
+            (_minDeathTime, _maxDeathTime);
+        yield return new WaitForSeconds(randomDelay);
+        Death();
     }
 
     private void Death()
