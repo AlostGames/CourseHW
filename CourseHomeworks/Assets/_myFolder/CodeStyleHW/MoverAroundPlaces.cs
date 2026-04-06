@@ -15,7 +15,7 @@ public class MoverAroundPlaces : MonoBehaviour
             _places[i] = _allPlacespoint.GetChild(i);
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
         Move();
     }
