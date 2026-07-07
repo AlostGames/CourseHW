@@ -60,9 +60,12 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.62f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\_myFolder\Alarm system\Scripts\Alarm.cs" />
     <Compile Include="Assets\_myFolder\Cubes rain\Scripts\Cube.cs" />
+    <Compile Include="Assets\_myFolder\Alarm system\Scripts\Detector.cs" />
     <Compile Include="Assets\_myFolder\Cubes rain\Scripts\Platform.cs" />
     <Compile Include="Assets\_myFolder\EnemiesSpawner\Scripts\TargetMover.cs" />
+    <Compile Include="Assets\_myFolder\Alarm system\Scripts\RobberMover.cs" />
     <Compile Include="Assets\_myFolder\CodeStyleHW\MoverAroundPlaces.cs" />
     <Compile Include="Assets\_myFolder\EnemiesSpawner\Scripts\SpawnPoint.cs" />
     <Compile Include="Assets\_myFolder\EnemiesSpawner\Scripts\EnemyMover.cs" />
