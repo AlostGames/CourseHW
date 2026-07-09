@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\assets\\_myfolder\\cubes rain\\scripts\\cubesspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\cubes rain\\scripts\\cubesspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|c:\\users\\loner\\documents\\github\\coursehw\\coursehomeworks\\assets\\_myfolder\\alarm system\\scripts\\alarm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\alarm system\\scripts\\alarm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|c:\\users\\loner\\documents\\github\\coursehw\\coursehomeworks\\assets\\_myfolder\\cubes rain\\scripts\\cube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\cubes rain\\scripts\\cube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|c:\\users\\loner\\documents\\github\\coursehw\\coursehomeworks\\assets\\_myfolder\\alarm system\\scripts\\house.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\alarm system\\scripts\\house.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\assets\\_myfolder\\codestylehw\\shooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\codestylehw\\shooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|c:\\users\\loner\\documents\\github\\coursehw\\coursehomeworks\\assets\\_myfolder\\alarm system\\scripts\\detector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\alarm system\\scripts\\detector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\assets\\_myfolder\\enemiesspawner\\scripts\\enemiesspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\enemiesspawner\\scripts\\enemiesspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\assets\\_myfolder\\codestylehw\\moveraroundplaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\codestylehw\\moveraroundplaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\assets\\_myfolder\\enemiesspawner\\scripts\\enemymover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\enemiesspawner\\scripts\\enemymover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\assets\\_myfolder\\enemiesspawner\\scripts\\targetmover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\enemiesspawner\\scripts\\targetmover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|c:\\users\\loner\\documents\\github\\coursehw\\coursehomeworks\\assets\\_myfolder\\alarm system\\scripts\\robbermover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\alarm system\\scripts\\robbermover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,89 +34,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Cube.cs",
-              "DocumentMoniker": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\Cubes rain\\Scripts\\Cube.cs",
-              "RelativeDocumentMoniker": "Assets\\_myFolder\\Cubes rain\\Scripts\\Cube.cs",
-              "ToolTip": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\Cubes rain\\Scripts\\Cube.cs",
-              "RelativeToolTip": "Assets\\_myFolder\\Cubes rain\\Scripts\\Cube.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACgAAAArAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "RobberMover.cs",
+              "DocumentMoniker": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\Alarm system\\Scripts\\RobberMover.cs",
+              "RelativeDocumentMoniker": "Assets\\_myFolder\\Alarm system\\Scripts\\RobberMover.cs",
+              "ToolTip": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\Alarm system\\Scripts\\RobberMover.cs",
+              "RelativeToolTip": "Assets\\_myFolder\\Alarm system\\Scripts\\RobberMover.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-04T12:33:41.131Z",
+              "WhenOpened": "2026-07-09T08:45:29.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Detector.cs",
+              "DocumentMoniker": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\Alarm system\\Scripts\\Detector.cs",
+              "RelativeDocumentMoniker": "Assets\\_myFolder\\Alarm system\\Scripts\\Detector.cs",
+              "ToolTip": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\Alarm system\\Scripts\\Detector.cs",
+              "RelativeToolTip": "Assets\\_myFolder\\Alarm system\\Scripts\\Detector.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-09T08:45:24.816Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CubesSpawner.cs",
-              "DocumentMoniker": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\Cubes rain\\Scripts\\CubesSpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\_myFolder\\Cubes rain\\Scripts\\CubesSpawner.cs",
-              "ToolTip": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\Cubes rain\\Scripts\\CubesSpawner.cs",
-              "RelativeToolTip": "Assets\\_myFolder\\Cubes rain\\Scripts\\CubesSpawner.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAjwEwAAAA/AAAAAAAAAA==",
+              "Title": "Alarm.cs",
+              "DocumentMoniker": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\Alarm system\\Scripts\\Alarm.cs",
+              "RelativeDocumentMoniker": "Assets\\_myFolder\\Alarm system\\Scripts\\Alarm.cs",
+              "ToolTip": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\Alarm system\\Scripts\\Alarm.cs",
+              "RelativeToolTip": "Assets\\_myFolder\\Alarm system\\Scripts\\Alarm.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-04T12:33:31.693Z",
+              "WhenOpened": "2026-07-09T08:45:16.348Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MoverAroundPlaces.cs",
-              "DocumentMoniker": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\CodeStyleHW\\MoverAroundPlaces.cs",
-              "RelativeDocumentMoniker": "Assets\\_myFolder\\CodeStyleHW\\MoverAroundPlaces.cs",
-              "ToolTip": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\CodeStyleHW\\MoverAroundPlaces.cs",
-              "RelativeToolTip": "Assets\\_myFolder\\CodeStyleHW\\MoverAroundPlaces.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "House.cs",
+              "DocumentMoniker": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\Alarm system\\Scripts\\House.cs",
+              "RelativeDocumentMoniker": "Assets\\_myFolder\\Alarm system\\Scripts\\House.cs",
+              "ToolTip": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\Alarm system\\Scripts\\House.cs",
+              "RelativeToolTip": "Assets\\_myFolder\\Alarm system\\Scripts\\House.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T19:45:18.706Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Shooter.cs",
-              "DocumentMoniker": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\CodeStyleHW\\Shooter.cs",
-              "RelativeDocumentMoniker": "Assets\\_myFolder\\CodeStyleHW\\Shooter.cs",
-              "ToolTip": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\CodeStyleHW\\Shooter.cs",
-              "RelativeToolTip": "Assets\\_myFolder\\CodeStyleHW\\Shooter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T19:45:46.346Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TargetMover.cs",
-              "DocumentMoniker": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\EnemiesSpawner\\Scripts\\TargetMover.cs",
-              "RelativeDocumentMoniker": "Assets\\_myFolder\\EnemiesSpawner\\Scripts\\TargetMover.cs",
-              "ToolTip": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\EnemiesSpawner\\Scripts\\TargetMover.cs",
-              "RelativeToolTip": "Assets\\_myFolder\\EnemiesSpawner\\Scripts\\TargetMover.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T13:45:53.747Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EnemiesSpawner.cs",
-              "DocumentMoniker": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\EnemiesSpawner\\Scripts\\EnemiesSpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\_myFolder\\EnemiesSpawner\\Scripts\\EnemiesSpawner.cs",
-              "ToolTip": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\EnemiesSpawner\\Scripts\\EnemiesSpawner.cs",
-              "RelativeToolTip": "Assets\\_myFolder\\EnemiesSpawner\\Scripts\\EnemiesSpawner.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T17:19:40.695Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EnemyMover.cs",
-              "DocumentMoniker": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\EnemiesSpawner\\Scripts\\EnemyMover.cs",
-              "RelativeDocumentMoniker": "Assets\\_myFolder\\EnemiesSpawner\\Scripts\\EnemyMover.cs",
-              "ToolTip": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\EnemiesSpawner\\Scripts\\EnemyMover.cs",
-              "RelativeToolTip": "Assets\\_myFolder\\EnemiesSpawner\\Scripts\\EnemyMover.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T17:19:34.762Z"
+              "WhenOpened": "2026-07-09T08:42:44.514Z",
+              "EditorCaption": ""
             }
           ]
         }

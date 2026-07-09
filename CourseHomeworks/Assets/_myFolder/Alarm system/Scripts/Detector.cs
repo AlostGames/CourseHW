@@ -1,16 +1,26 @@
+using System;
 using UnityEngine;
 
 public class Detector : MonoBehaviour
 {
     [SerializeField] private Alarm _alarm;
 
-    private void OnTriggerEnter(Collider robber)
+    public event Action RobberEntered;
+    public event Action RobberExited;
+
+    private void OnTriggerEnter(Collider other)
     {
-        _alarm.On();
+        if (other.GetComponent<RobberMover>())
+        {
+            RobberEntered?.Invoke();
+        }
     }
 
-    private void OnTriggerExit(Collider robber)
+    private void OnTriggerExit(Collider other)
     {
-        _alarm.Off();
+        if (other.GetComponent<RobberMover>())
+        {
+            RobberExited?.Invoke();
+        }
     }
 }
