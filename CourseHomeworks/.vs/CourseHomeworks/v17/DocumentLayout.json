@@ -3,19 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\assets\\_myfolder\\alarm system\\scripts\\detector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\alarm system\\scripts\\detector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|c:\\users\\loner\\documents\\github\\coursehw\\coursehomeworks\\assets\\_myfolder\\alarm system\\scripts\\alarm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\alarm system\\scripts\\alarm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|c:\\users\\loner\\documents\\github\\coursehw\\coursehomeworks\\assets\\_myfolder\\alarm system\\scripts\\house.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\assets\\_myfolder\\alarm system\\scripts\\house.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\alarm system\\scripts\\house.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|c:\\users\\loner\\documents\\github\\coursehw\\coursehomeworks\\assets\\_myfolder\\alarm system\\scripts\\detector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\alarm system\\scripts\\detector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|c:\\users\\loner\\documents\\github\\coursehw\\coursehomeworks\\assets\\_myfolder\\alarm system\\scripts\\robbermover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\assets\\_myfolder\\alarm system\\scripts\\robbermover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C6B17E4-BE94-E806-1344-8232C5F411BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_myfolder\\alarm system\\scripts\\robbermover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,7 +47,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Detector.cs",
               "DocumentMoniker": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\Alarm system\\Scripts\\Detector.cs",
               "RelativeDocumentMoniker": "Assets\\_myFolder\\Alarm system\\Scripts\\Detector.cs",
@@ -60,26 +60,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Alarm.cs",
               "DocumentMoniker": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\Alarm system\\Scripts\\Alarm.cs",
               "RelativeDocumentMoniker": "Assets\\_myFolder\\Alarm system\\Scripts\\Alarm.cs",
               "ToolTip": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\Alarm system\\Scripts\\Alarm.cs",
               "RelativeToolTip": "Assets\\_myFolder\\Alarm system\\Scripts\\Alarm.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-09T08:45:16.348Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "House.cs",
               "DocumentMoniker": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\Alarm system\\Scripts\\House.cs",
               "RelativeDocumentMoniker": "Assets\\_myFolder\\Alarm system\\Scripts\\House.cs",
               "ToolTip": "C:\\Users\\Loner\\Documents\\GitHub\\CourseHW\\CourseHomeworks\\Assets\\_myFolder\\Alarm system\\Scripts\\House.cs",
               "RelativeToolTip": "Assets\\_myFolder\\Alarm system\\Scripts\\House.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-09T08:42:44.514Z",
               "EditorCaption": ""

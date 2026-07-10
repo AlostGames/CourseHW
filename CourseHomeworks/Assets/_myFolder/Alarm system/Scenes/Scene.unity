@@ -662,7 +662,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f51e0e2dbcb618641a84e296aad8a9dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  alarmSource: {fileID: 1056007124}
+  _alarmSource: {fileID: 1056007124}
   _fadeSpeed: 0.5
 --- !u!1 &1294265086
 GameObject:

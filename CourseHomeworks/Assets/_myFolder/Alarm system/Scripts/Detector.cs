@@ -10,7 +10,7 @@ public class Detector : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.GetComponent<RobberMover>())
+        if (other.TryGetComponent<RobberMover>(out RobberMover robberMover))
         {
             RobberEntered?.Invoke();
         }
@@ -18,7 +18,7 @@ public class Detector : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.GetComponent<RobberMover>())
+        if (other.TryGetComponent<RobberMover>(out RobberMover robberMover))
         {
             RobberExited?.Invoke();
         }

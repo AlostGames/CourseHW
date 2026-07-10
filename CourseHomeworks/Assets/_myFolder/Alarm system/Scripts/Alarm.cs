@@ -26,7 +26,6 @@ public class Alarm : MonoBehaviour
         if (_volumeCoroutine != null)
         {
             StopCoroutine(_volumeCoroutine);
-            _volumeCoroutine = null;
         }
 
         _volumeCoroutine = StartCoroutine(FadeVolume(targetVolume));
@@ -46,5 +45,7 @@ public class Alarm : MonoBehaviour
         {
             _alarmSource.Stop();
         }
+
+        _volumeCoroutine = null;
     }
 }
